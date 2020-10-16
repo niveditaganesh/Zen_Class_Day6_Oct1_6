@@ -1,0 +1,214 @@
+body {
+  margin: 10px 80px;
+  padding: 10px 130px;
+}
+.visible1 {
+  overflow: visible;
+  width: 50%;
+  height: 100px;
+  position: relative;
+  left: 500px;
+}
+.visible2 {
+  overflow: visible;
+  width: 50%;
+  height: 100px;
+  position: relative;
+  left: 10px;
+}
+.visible0 {
+  overflow: visible;
+  width: 50%;
+  height: 100px;
+  position: relative;
+  left: 350px;
+}
+.block1 {
+  background: rgb(71, 7, 71);
+  position: relative;
+  z-index: 1;
+  height: 60%;
+}
+
+.block1:after {
+  background: inherit;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+  bottom: 0;
+  transform: skewY(-2deg);
+  transform-origin: 100%;
+}
+div.block0 > p,
+div.block0 > h1,
+div.block0 > h2 {
+  -ms-transform: skewY(2deg); /* IE 9 */
+  transform: skewY(2deg);
+  position: relative;
+  top: 30px;
+}
+div.block0 {
+  background-image: url(https://wallpapercave.com/wp/wp2777512.png);
+  -ms-transform: skewY(-2deg); /* IE 9 */
+  transform: skewY(-2deg);
+  height: 80%;
+  text-align: center;
+  line-height: 1.6;
+  font-size: large;
+}
+div.block2 > p,
+div.block2 > h1 {
+  -ms-transform: skewY(2deg); /* IE 9 */
+  transform: skewY(2deg);
+  position: relative;
+  top: 30px;
+}
+div.block2 {
+  background-image: url(http://www.technocrazed.com/wp-content/uploads/2015/12/HD-purple-wallpaper-image-to-use-as-background-121.jpg);
+  -ms-transform: skewY(-2deg); /* IE 9 */
+  transform: skewY(-2deg);
+  height: 60%;
+  text-align: center;
+  line-height: 1.6;
+  font-size: large;
+}
+div.block3 > p,
+div.block3 > h1 {
+  -ms-transform: skewY(2deg); /* IE 9 */
+  transform: skewY(2deg);
+  position: relative;
+  top: 30px;
+}
+div.block3 {
+  background-image: url(https://wallpapercave.com/wp/LgKsYZL.jpg);
+  -ms-transform: skewY(-2deg); /* IE 9 */
+  transform: skewY(-2deg);
+  height: 60%;
+  text-align: left;
+  line-height: 1.6;
+  font-size: large;
+}
+div.block4 > p,
+div.block4 > h1 {
+  -ms-transform: skewY(2deg); /* IE 9 */
+  transform: skewY(2deg);
+  position: relative;
+  top: 30px;
+}
+div.block4 {
+  background-image: url(http://hdblackwallpaper.com/wallpaper/2015/07/hot-pink-backgrounds-for-desktop-8-cool-hd-wallpaper.jpg);
+  -ms-transform: skewY(-2deg); /* IE 9 */
+  transform: skewY(-2deg);
+  height: 60%;
+  text-align: center;
+  line-height: 1.6;
+  font-size: large;
+}
+div.block5 > p,
+div.block5 > h1 {
+  -ms-transform: skewY(2deg); /* IE 9 */
+  transform: skewY(2deg);
+  position: relative;
+  top: 30px;
+}
+div.block5 {
+  background-image: url(https://thumbs.dreamstime.com/b/landscape-mountain-views-blue-sky-beautiful-clouds-real-scene-any-light-effects-44936862.jpg);
+  -ms-transform: skewY(-2deg); /* IE 9 */
+  transform: skewY(-2deg);
+  height: 60%;
+  text-align: center;
+  line-height: 1.6;
+  font-size: large;
+}
+div.block6 > p,
+div.block6 > h1,
+div.block6 > h2 {
+  -ms-transform: skewY(2deg); /* IE 9 */
+  transform: skewY(2deg);
+  position: relative;
+  top: 30px;
+}
+div.block6 {
+  background-image: url(https://mspoweruser.com/wp-content/uploads/2019/01/bliss-night.jpg);
+  -ms-transform: skewY(-2deg); /* IE 9 */
+  transform: skewY(-2deg);
+  height: 80%;
+  text-align: center;
+  line-height: 1.6;
+  font-size: large;
+}
+div.block7 > p,
+div.block7 > h1 {
+  -ms-transform: skewY(2deg); /* IE 9 */
+  transform: skewY(2deg);
+  position: relative;
+  top: 30px;
+}
+div.block7 {
+  background-image: url(https://get.wallhere.com/photo/colorful-purple-violet-texture-circle-pink-magenta-color-rainbow-background-wave-shape-line-petal-computer-wallpaper-obliquely-637221.jpg);
+  -ms-transform: skewY(-2deg); /* IE 9 */
+  transform: skewY(-2deg);
+  height: 60%;
+  text-align: center;
+  line-height: 1.6;
+  font-size: large;
+}
+div.block8 {
+  background-image: url(https://freedesignfile.com/upload/2017/01/Pink-shading-background-HD-picture.jpg);
+  -ms-transform: skewY(-2deg); /* IE 9 */
+  transform: skewY(-2deg);
+  height: 60%;
+  text-align: center;
+  line-height: 1.6;
+  font-size: large;
+}
+div.block8 > p,
+div.block8 > h1 {
+  -ms-transform: skewY(2deg); /* IE 9 */
+  transform: skewY(2deg);
+  position: relative;
+  top: 30px;
+}
+.block9 {
+  background: lightgray;
+  position: relative;
+  z-index: 1;
+  column-count: 2;
+  column-gap: 150px;
+  padding: 0 20px;
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+  font-weight: 500;
+  font-size: large;
+  text-align: end;
+}
+
+.block9:before {
+  top: 0px;
+  transform: skewY(-2deg);
+  transform-origin: 0 100%;
+  background: inherit;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+div.block10 {
+  height: 15%;
+  background-color: whitesmoke;
+  column-count: 2;
+  column-gap: 50px;
+  padding: 0 10px;
+  font-family: "Cabin Condensed", sans-serif;
+  color: grey;
+  font-weight: 200;
+}
